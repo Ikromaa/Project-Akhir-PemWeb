@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
 export const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://ikroma_hataf:yeamplow9090@cluster0.0e6a4kb.mongodb.net/PemWeb')
+    await mongoose.connect(process.env.MONGODB_URI)
     .then(() => console.log('DataBase connected'))
 }
