@@ -1,0 +1,16 @@
+# Global ignore env
+*.env
+.env
+
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Uploads folder
+backend/uploads/
+
+# VSCode
+.vscode/
+backend/.vscode/
+frontend/.vscode/
